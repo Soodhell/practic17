@@ -1,0 +1,12 @@
+#include "winresrc.h"
+
+Ex4_Icon ICON "myicon.ico"
+
+RomanDialogBox DIALOG 50, 50, 150, 100
+STYLE WS_BORDER|WS_CAPTION
+FONT 14, "times new roman"
+CAPTION "Message Box"
+{
+    CONTROL "Message Box", 1, "STATIC", 0, 2, 2, 80, 10
+    CONTROL "Exit", 2, "BUTTON", 0, 60, 20, 30, 20
+}
